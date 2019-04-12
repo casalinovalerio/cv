@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  11 APR 2019 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  12 APR 2019 11:18
 entering extended mode
 **./page1sidebar.tex
 (page1sidebar.tex
 LaTeX2e <2018-12-01>
 ! Undefined control sequence.
 l.1 \cvsection
-              {Filosofia}
+              {Motto}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -19,20 +19,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \cvsection{F
-                ilosofia}
+l.1 \cvsection{M
+                otto}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no F in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no M in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
 [] 
@@ -58,13 +54,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 `
-     `Sapiens Fingit Fortunam Sibi.'' \\
+l.4 S
+     apiens Fingit Fortunam Sibi.
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no ` in font nullfont!
-Missing character: There is no ` in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -91,40 +85,6 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no ' in font nullfont!
-Missing character: There is no ' in font nullfont!
-Missing character: There is no " in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no " in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{quote}.
 
@@ -132,19 +92,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 \end{quote}
+l.5 \end{quote}
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 4--7
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--6
 []
  []
 
 ! Undefined control sequence.
-l.8 \cvsection
+l.7 \cvsection
               {Sono Orgoglioso di}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -159,7 +119,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \cvsection{S
+l.7 \cvsection{S
                 ono Orgoglioso di}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -181,13 +141,13 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
 []
  []
 
 ! Undefined control sequence.
-l.10 \cvachievement
-                   {\faTrophy}{Tirocinio in Reply}{Ho ottenuto un tirocinio ...
+l.9 \cvachievement
+                  {\faTrophy}{Tirocinio in Reply}{Ho ottenuto un tirocinio p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -195,8 +155,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.10 \cvachievement{\faTrophy
-                             }{Tirocinio in Reply}{Ho ottenuto un tirocinio ...
+l.9 \cvachievement{\faTrophy
+                            }{Tirocinio in Reply}{Ho ottenuto un tirocinio p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -210,8 +170,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 \cvachievement{\faTrophy}{T
-                                irocinio in Reply}{Ho ottenuto un tirocinio ...
+l.9 \cvachievement{\faTrophy}{T
+                               irocinio in Reply}{Ho ottenuto un tirocinio p...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -273,19 +233,21 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -315,12 +277,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
 []
  []
 
 ! Undefined control sequence.
-l.18 \cvsection
+l.17 \cvsection
                {Soft Skills}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -335,7 +297,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 \cvsection{S
+l.17 \cvsection{S
                  oft Skills}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -351,12 +313,12 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
 []
  []
 
 ! Undefined control sequence.
-l.20 \cvtag
+l.19 \cvtag
            {IELTS 7.5 (C1)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -371,7 +333,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \cvtag{I
+l.19 \cvtag{I
              ELTS 7.5 (C1)}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -389,7 +351,7 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.21 \cvtag
+l.20 \cvtag
            {Affidabilità}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -408,16 +370,16 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
-LaTeX Font Info:    Try loading font information for +cmr on input line 21.
-LaTeX Font Info:    No file cmr.fd. on input line 21.
+LaTeX Font Info:    Try loading font information for +cmr on input line 20.
+LaTeX Font Info:    No file cmr.fd. on input line 20.
 
 LaTeX Font Warning: Font shape `/cmr/m/n' undefined
-(Font)              using `/cmr/m/n' instead on input line 21.
+(Font)              using `/cmr/m/n' instead on input line 20.
 
 ! Corrupted NFSS tables.
 wrong@fontshape ...message {Corrupted NFSS tables}
                                                   error@fontshape else let f...
-l.21 \cvtag{Affidabilità
+l.20 \cvtag{Affidabilità
                          }
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -426,10 +388,10 @@ and deduce the truth by order and method.
 
 
 LaTeX Font Warning: Font shape `/cmr/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 21.
+(Font)              using `OT1/cmr/m/n' instead on input line 20.
 
 ! Undefined control sequence.
-l.22 \cvtag
+l.21 \cvtag
            {Onestà}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -443,7 +405,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.23 \cvtag
+l.22 \cvtag
            {Sincerità}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -460,27 +422,27 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 20--24
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--23
 []
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 20--24
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 19--23
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 20--24
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 19--23
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 20--24
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 19--23
 \/cmr/m/n/10 a 
  []
 
 ! Undefined control sequence.
-l.25 \divider
+l.24 \divider
              \smallskip
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -489,7 +451,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 \cvtag
+l.26 \cvtag
            {Conoscenza \LaTeX}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -504,7 +466,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \cvtag{C
+l.26 \cvtag{C
              onoscenza \LaTeX}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -522,14 +484,14 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no T in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
+(Font)              <7> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 27.
+(Font)              <5> on input line 26.
 Missing character: There is no T in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no X in font nullfont!
 ! Undefined control sequence.
-l.28 \cvtag
+l.27 \cvtag
            {Introdotto al VA/PT}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -554,6 +516,23 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no T in font nullfont!
+! Undefined control sequence.
+l.28 \cvtag
+           {MS Office}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no M in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 l.29 \cvtag
            {Windows e Unix/Linux OS}
@@ -617,12 +596,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 27--31
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--31
 []
  []
 
 
-Overfull \hbox (5.90282pt too wide) in paragraph at lines 27--31
+Overfull \hbox (5.90282pt too wide) in paragraph at lines 26--31
 [][]
  []
 
@@ -715,50 +694,6 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 34--36
  []
 
 ! Undefined control sequence.
-l.37 \cvskill
-             {Assembly}{3}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 \cvskill{A
-               ssembly}{3}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no A in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no 3 in font nullfont!
-! Undefined control sequence.
-l.38 \divider
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 37--39
-[] 
- []
-
-! Undefined control sequence.
 l.40 \cvskill
              {Java}{4}
 The control sequence at the end of the top line
@@ -840,7 +775,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 43--45
 
 ! Undefined control sequence.
 l.51 \cvsection
-               {Educazione}
+               {Studi}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -854,21 +789,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \cvsection{E
-                 ducazione}
+l.51 \cvsection{S
+                 tudi}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no E in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no z in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 51--52
 [] 
@@ -1076,5 +1006,5 @@ Here is how much of TeX's memory you used:
  4016 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 17i,3n,16p,166b,91s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 17i,3n,16p,167b,91s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
