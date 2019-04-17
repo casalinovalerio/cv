@@ -76,13 +76,13 @@
   \email{\href{mailto:casalinovalerio.cv@gmail.com}{casalinovalerio.cv@gmail.com}}
   %\phone{\href{tel:}{}}
   %\mailaddress{Elambilakkal(Hose),Calicut airport(Po),Kondotty, Malappuram }
-  \location{Roma, Italia}
   %\twitter{@twitterhandle}
-  \linkedin{Linkedin in creazione}
+  \linkedin{\url{https://www.linkedin.com/in/valerio-casalino/}}
   \github{\url{https://github.com/casalinovalerio}}
   %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
   %\orcid{orcid.org/0000-0000-0000-0000}
   \homepage{Copia digitale (e sorgente): \url{http://bit.ly/vcasalino-cv} }
+  \location{Roma, Italia}
 }
 
 %% Make the header extend all the way to the right, if you want. 
@@ -93,28 +93,24 @@
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 % \AtBeginEnvironment{itemize}{\small}
 
-\cvsection[page1sidebar]{Esami Sostenuti}
+%\cvsection{Esami Sostenuti}
 
 % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
 % \wheelchart{outer radius}{inner radius}{
 % comma-separated list of value/text width/color/detail}
 
-\wheelchart{1.5cm}{0.5cm}{%
-  129/8em/accent!30/{CFU Ottenuti \\ (129)}, 
-  54/8em/accent!8/{CFU Mancanti \\(54)}
-}
+%\wheelchart{1cm}{0.5cm}{%
+%  129/8em/accent!30/{CFU Ottenuti \\ (129)}, 
+%  54/8em/accent!8/{CFU Mancanti \\(54)}
+%}
 
 %% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
 %% You can always just use \marginpar{...} if you do
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
-\cvsection{Esperienze Internazionali}
+\cvsection[page1sidebar]{Esperienze Internazionali}
 
-\cvevent{Studente}{STEM Research Experience, University of Colorado}{29/06/2015 - 23/07/2015}{Boulder(CO), USA}
-\begin{itemize}
-\item Orientamento universitario.
-\item Progetto di ricerca nel dipartimento di Behavioral Genetics.
-\end{itemize}
+\cvevent{Orientamento universitario e progetto di ricerca}{STEM Research Experience, University of Colorado}{29/06/2015 - 23/07/2015}{Boulder(CO), USA}
 
 \divider
 
@@ -125,24 +121,26 @@
 \cvevent{General English Course}{University of Bath}{22/07/2012 - 05/08/2012}{Bath, Regno Unito}
 
 \cvsection{Altre Esperienze}
-Ho sempre praticato almeno uno sport: judo, nuoto, scherma (a livello agonistico), sci, prepugilistica e boxe.
+
+%\cvevent{Sport}{}{}{}{Ne ho sempre praticato almeno uno: judo, nuoto, scherma (agonistica), sci, prepugilistica e boxe.}
+
+%\divider
+
+\cvevent{Scoutismo}{Federazione Scout d'Europa (FSE)}{2007 - 2014}{Roma, Italia}{Partecipavo attivamente alle attività di gruppo e, con l'esperienza e la fiducia, sono diventato il leader della mia squadra, fino a che non mi sono allontanato per dedicarmi di più allo studio.}
 
 \divider
 
-Dal 2007 al 2014 sono stato membro della federazione scoutistica europea (FSE), partecipavo attivamente alle attività di gruppo e, con l'esperienza e la fiducia, sono diventato il leader della mia squadra, fino a che non mi sono allontanato per dedicarmi di più allo studio.
+\cvevent{Corso da bartender}{Flair Project}{Novembre 2015}{Roma, Italia}{Durante il quinto anno di liceo, ho frequentato un corso serale per imparare le tecniche professionali di bartending americano. Ho iniziato ad essere invitato a più feste...}
 
-\divider
-
-Da settembre a novembre 2015, durante l'inizio del mio quinto anno di liceo, ho frequentato un corso serale per imparare le tecniche professionali di bartending americano. Ho iniziato ad essere invitato a più feste...
 % Le conoscenze apprese mi sono servite per svolgere il ruolo di barman per diverse feste con un gran numero di invitati.
 
 \divider
 
-Nel marzo  2016 ho partecipato a un seminario sulle tecniche di negoziazione organizzato dal Club Canova Giovane, in collaborazione con l'università LUISS di Roma.
+\cvevent{Seminario su tecniche di negoziazione}{Club Canova Giovane - LUISS}{Marzo 2016}{Roma, Italia}
 
 \divider
 
-Dal 2015 al 2017 sono stato consigliere di amministrazione della ONLUS T.G.S. Ongos 2000.
+\cvevent{Consigliere di amministrazione}{ONLUS T.G.S. Ongos 2000}{2015 - 2017}{Roma, Italia}
 
 %\cvsection{Projects}
 
