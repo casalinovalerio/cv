@@ -1,0 +1,167 @@
+\documentclass[12pt, openany, a4paper]{report}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% PACKAGES
+%-------------------------------------------------------------------------------
+% \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{caption}
+\usepackage[italian]{babel}
+\usepackage[hmargin={2.3cm,2.3cm},vmargin={3cm,3cm}]{geometry}
+\usepackage[]{hyperref}
+\usepackage{fontawesome}
+
+% https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
+\usepackage[dvipsnames]{xcolor}
+\definecolor{linkedinBlue}{RGB}{0, 119, 181}
+\definecolor{telegramBlue}{RGB}{0, 136, 204}
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+
+\rhead{ \color{gray} Una copia digitale di questo CV è disponibile qui: \url{} }
+\rfoot{ {\small \color{gray} Autorizzo il trattamento dei dati personali (art.13 D. Lgs. 30 Giugno 2003 n.196).} \hfill \color{black} Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% DOCUMENT
+%-------------------------------------------------------------------------------
+\begin{document}
+
+	% NAME, PIC and LINKS
+	\flushleft {\Huge \textbf{VALERIO CASALINO}}
+	
+	% Horizontal line
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{0.6pt}}
+	
+	\begin{minipage}{.3\textwidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=.9\textwidth]{fototessera}
+		\end{figure}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.65\textwidth}
+	
+			\vfill
+			
+			{\color{Sepia} \faMapMarker} Roma, Italia \hfill {\color{Sepia} \faMars} Maschio \hfill  {\color{Sepia} \faBirthdayCake } 12/01/1997
+			
+			\vfill
+		
+			{ \color{Salmon} \faEnvelope} casalinovalerio.cv@gmail.com
+			
+			\vfill
+
+			{ \color{linkedinBlue} \faLinkedin} \url{https://www.linkedin.com/in/valerio-casalino}
+
+			\vfill
+			
+			\faGithub \ \url{https://github.com/casalinovalerio}
+			
+			\vfill
+			
+			%{ \color{telegramBlue} \faPaperPlaneO} \url{t.me/casalinovalerio}
+			
+			%\vfill
+			
+			\faChain \ \url{https://casalinovalerio.com}
+			
+			\vfill
+			
+	\end{minipage}
+
+	
+	\vspace{25px}
+	
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{ISTRUZIONE}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.66\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\textwidth}{0.6pt}}
+	\end{minipage}
+
+	\bigskip
+	
+	
+	\input{includes/istruzione.tex}
+
+
+	\vspace{25px}
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{ESPERIENZE}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.65\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+	
+	\bigskip
+	\vspace{25px}
+	
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{ESPERIENZE \\ INTERNAZIONALI}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.66\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+
+	\bigskip
+	
+	\input{includes/esperienze-internazionali.tex}
+	
+	\vspace{25px}
+	
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{LINGUE}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.66\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+
+	\bigskip
+
+	\vspace{25px}
+
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{CONOSCENZE INFORMATICHE}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.65\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+
+	\bigskip
+	\vspace{25px}
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{ALTRE COMPETENZE}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.65\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+
+\end{document}
