@@ -26,7 +26,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 
-\rhead{ \color{gray} Una copia digitale di questo CV è disponibile qui: \url{} }
+\rhead{ \color{gray} Una copia digitale di questo CV è disponibile qui: \url{http://bit.ly/2xkHMAm} }
 \rfoot{ {\small \color{gray} Autorizzo il trattamento dei dati personali (art.13 D. Lgs. 30 Giugno 2003 n.196).} \hfill \color{black} Page \thepage \hspace{1pt} of \pageref{LastPage}}
 
 
@@ -73,7 +73,7 @@
 			
 			%\vfill
 			
-			\faChain \ \url{https://casalinovalerio.com}
+			{ \color{Dandelion} \faChain } \url{https://casalinovalerio.com}
 			
 			\vfill
 			
@@ -110,6 +110,9 @@
 	\end{minipage}
 	
 	\bigskip
+	
+	\input{includes/esperienze.tex}
+	
 	\vspace{25px}
 	
 	
@@ -139,29 +142,20 @@
 	\end{minipage}
 
 	\bigskip
+	
+	\input{includes/lingue.tex}
 
-	\vspace{25px}
-
+	\cleardoublepage
 	
 	\begin{minipage}{.3\textwidth}
-		{\large \textbf{CONOSCENZE INFORMATICHE}}
+		{\large \textbf{COMPETENZE}}
 	\end{minipage}
 	\hfill
 	\begin{minipage}{.65\textwidth}
 		% Horizontal line
 		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
 	\end{minipage}
-
-	\bigskip
-	\vspace{25px}
 	
-	\begin{minipage}{.3\textwidth}
-		{\large \textbf{ALTRE COMPETENZE}}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{.65\textwidth}
-		% Horizontal line
-		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
-	\end{minipage}
+	\input{includes/competenze.tex}
 
 \end{document}
