@@ -1,0 +1,171 @@
+\documentclass[10pt, openany, a4paper]{report}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% PACKAGES
+%-------------------------------------------------------------------------------
+% \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{caption}
+\usepackage[italian]{babel}
+\usepackage[hmargin={2.3cm,2.3cm},vmargin={3cm,3cm}]{geometry}
+\usepackage{fontawesome}
+
+% Metadata https://tex.stackexchange.com/a/26530
+\usepackage[pdftex,
+	pdfauthor={Valerio Casalino},
+	pdftitle={V. Casalino's Resume},
+	pdfsubject={Resume},
+	pdfkeywords={Engineer, Student, Politecnico, Security, Cybersecurity, Internship, Scoutism},
+	pdfproducer={Latex with hyperref},
+	pdfcreator={pdflatex}]{hyperref}
+
+% https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
+\usepackage[dvipsnames]{xcolor}
+\definecolor{linkedinBlue}{RGB}{0, 119, 181}
+\definecolor{telegramBlue}{RGB}{0, 136, 204}
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+
+\rhead{ \color{gray} Digital copy of this document here: \url{http://bit.ly/2Sa1rfY} }
+\rfoot{ {\small \color{gray} I authorize the use of data in this document (art.13 D. Lgs. 30 Giugno 2003 n.196).} \hfill \color{black} Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% DOCUMENT
+%-------------------------------------------------------------------------------
+\begin{document}
+
+	% NAME, PIC and LINKS
+	\flushleft {\Huge \textbf{VALERIO CASALINO}}
+	
+	% Horizontal line
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{0.6pt}}
+	
+	\begin{minipage}{.3\textwidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=.9\textwidth]{idPicture}
+		\end{figure}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.65\textwidth}
+	
+			\vfill
+			
+			{\color{Sepia} \faMapMarker} Rome, Italy \hfill {\color{Sepia} \faMars} Male \hfill  {\color{Sepia} \faBirthdayCake } 12/01/1997
+			
+			\vfill
+		
+			{ \color{Salmon} \faEnvelope} casalinovalerio.cv@gmail.com
+			
+			\vfill
+
+			{ \color{linkedinBlue} \faLinkedin} \url{https://www.linkedin.com/in/valerio-casalino}
+
+			\vfill
+			
+			\faGithub \ \url{https://github.com/casalinovalerio}
+			
+			\vfill
+			
+			%{ \color{telegramBlue} \faPaperPlaneO} \url{t.me/casalinovalerio}
+			
+			%\vfill
+			
+			{ \color{Dandelion} \faChain } \url{https://casalinovalerio.com}
+			
+			\vfill
+			
+	\end{minipage}
+
+	
+	\vspace{25px}
+	
+	
+	\begin{minipage}{.3\textwidth}
+		{ \large \textbf{EDUCATION}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.66\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\textwidth}{0.6pt}}
+	\end{minipage}
+
+	\bigskip
+	
+	
+	\input{includes/education.tex}
+
+
+	\vspace{25px}
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{EXPERIENCES}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.65\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+	
+	\bigskip
+	
+	\input{includes/experiences.tex}
+	
+	\vspace{25px}
+	\newpage
+	
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{INTERNATIONAL \\ EXPERIENCES}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.66\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+
+	\bigskip
+	
+	\input{includes/international-experiences.tex}
+	
+	\vspace{25px}
+	
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{LANGUAGES}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.66\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+
+	\bigskip
+	
+	\input{includes/languages.tex}
+
+	\vspace{25px}
+	
+	\begin{minipage}{.3\textwidth}
+		{\large \textbf{SKILLS}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.65\textwidth}
+		% Horizontal line
+		\noindent\makebox[\linewidth]{\rule{\linewidth}{0.6pt}}
+	\end{minipage}
+	
+	\bigskip
+	
+	\input{includes/skills.tex}
+
+\end{document}
