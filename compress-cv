@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+# Compress the cv using ilovepdf's API
+KEY_FILE="./key_file"
+PDF_FILE="./vcasalino.pdf"
+OUT_FILE="./cv-casalino.pdf"
+
+[ ! -f "$KEY_FILE" ] && { printf "No key file\\n"; exit 1; }
+[ ! -f "$PDF_FILE" ] && { printf "No pdf file\\n"; exit 1; }
+
+KEY=$( cat "$KEY_FILE" )
+
+TOKEN=$( curl -s --data "public_key=$KEY" -X POST "https://api.ilovepdf.com/v1/auth" | cut -d ":" -f 2 | cut -d "\"" -f 2 )
+
+tmp=$( curl -s -H "Authorization: Bearer $TOKEN" "https://api.ilovepdf.com/v1/start/compress" )
+SERVER=$( printf "%s" "$tmp" | cut -d ":" -f 2 | cut -d "\"" -f 2 )
+TASK=$( printf "%s" "$tmp" | cut -d ":" -f 3 | cut -d "\"" -f 2 )
+
+S_NAME=$( curl -s -H "Authorization: Bearer $TOKEN" -F "task=$TASK" -F "file=@$PDF_FILE" "https://$SERVER/v1/upload" | cut -d ":" -f 2 | cut -d "\"" -f 2 )
+
+curl -s -H "Authorization: Bearer $TOKEN" --data "task=$TASK" --data "tool=compress" --data "files[0][filename]=$PDF_FILE" --data "files[0][server_filename]=$S_NAME" "https://$SERVER/v1/process"
+
+curl -s -H "Authorization: Bearer $TOKEN" "https://$SERVER/v1/download/$TASK" > "$OUT_FILE"
+
+curl -s -X DELETE -H "Authorization: Bearer $TOKEN" "https://$SERVER/v1/task/$TASK" 
