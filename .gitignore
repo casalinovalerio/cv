@@ -3,6 +3,3 @@
 **/*.log
 **/*.out
 **/*.synctex.gz
-
-# file containing the key for ilovepdf API
-key_file
