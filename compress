@@ -15,5 +15,5 @@ gs -q -dNOPAUSE -dBATCH -dSAFER			\
 	-dGrayImageResolution=150		\
 	-dMonoImageDownsampleType=/Bicubic	\
 	-dMonoImageResolution=150		\
-	-sOutputFile="./vcasalino.pdf"		\
-	"./cv-casalino.pdf"
+	-sOutputFile="./cv-casalino.pdf"		\
+	"./vcasalino.pdf"
