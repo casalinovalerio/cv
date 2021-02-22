@@ -1,0 +1,5 @@
+# pdflatex auxiliary files
+**/*.aux
+**/*.log
+**/*.out
+**/*.synctex.gz

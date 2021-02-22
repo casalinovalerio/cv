@@ -1,0 +1,202 @@
+\documentclass[10pt, openany, a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx, wrapfig, float, fontawesome, fancyhdr, lastpage}
+
+% Define document margins
+\usepackage[hmargin={2cm,2cm},vmargin={3cm,3cm}]{geometry}
+
+% Metadata https://tex.stackexchange.com/a/26530
+\usepackage[pdfauthor={Valerio Casalino},pdftitle={V. Casalino's Resume}]{hyperref}
+
+% https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
+\usepackage[dvipsnames]{xcolor}
+
+% Define colors
+%\definecolor{linkedinBlue}{RGB}{0, 119, 181}
+%\definecolor{telegramBlue}{RGB}{0, 136, 204}
+\definecolor{DarkGray}{RGB}{49, 51, 53}
+
+% Define headers and footers
+\pagestyle{fancy} \fancyhf{}
+% Left-top
+\lhead{\color{gray} Download this document here: \url{https://git.io/vcasalino}}
+% Right-top
+\rhead{\small Document last change: \today}
+% Right-bottom
+\rfoot{{\small \color{gray} I authorize the use of data in this document 
+(art.13 D. Lgs. 30 Giugno 2003 n.196).} \hfill \color{black} 
+Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+% Custom command to put a new entry
+% cventry [title] [subtitle] [where] [when] [description]
+\newcommand{\cventry}[5]{%
+\begin{minipage}{.2\textwidth} \flushright {#4} \end{minipage}%
+\hfill \begin{minipage}{.75\textwidth} \vfill {\large \textbf{#1}} \\%
+\color{Maroon} #2 \hfill \color{Sepia} \faMapMarker \ #3 \smallskip \\%
+\color{DarkGray} #5 \vfill \end{minipage}\bigskip}
+
+% Custom command for horizontal line
+\newcommand*{\myhline}{\noindent\makebox[\linewidth]{\rule{\textwidth}{0.6pt}}}
+
+% Custom command to get a section header
+\newcommand{\mysection}[1]{%
+\begin{minipage}{.25\textwidth}{\large\textbf{#1}}\end{minipage}\hfill%	
+\begin{minipage}{.7\textwidth}{\myhline}\end{minipage}\bigskip%
+}
+
+% Custom command to put figure
+\newcommand*{\myfigure}{\begin{figure}[H]\flushleft%
+\includegraphics[width=.8\textwidth]{idPicture}\end{figure}}
+
+% Custom command to cite URLs
+\newcommand{\mylink}[1]{{\color{Salmon}\url{#1}}}
+
+% Actual document
+\begin{document} 
+	
+	\begin{minipage}{.27\textwidth}{\myfigure}\end{minipage}
+	\hfill
+	\begin{minipage}{.64\textwidth}
+		\centering
+		{\Huge \textbf{VALERIO CASALINO}}
+		
+		\myhline		
+				
+		\vspace{2em} 
+			
+		{\color{Sepia} \faMapMarker} Rome, Italy 
+		\hspace{1em} 
+		{\color{Sepia} \faMars} Male 
+		\hspace{1em}
+		{\color{Sepia} \faBirthdayCake } 12/01/1997
+		
+		\vspace{1em}
+		
+		%\centering		
+		
+		{\color{Green}\faChain}%
+			\ \url{https://readmy.link/casalinovalerio}\ %
+		{\color{Green}\faChain}
+		
+		\vspace{1em}
+
+		{\color{Salmon}\faEnvelope}%
+			\href{mailto:casalinovalerio.cv@gmail.com}%
+			 {\ casalinovalerio.cv@gmail.com\ }%
+		{\color{Salmon}\faEnvelope} 
+		
+		\vfill
+			
+	\end{minipage}
+
+	\vspace{25px}
+	
+	\mysection{EDUCATION}
+	
+	\cventry{Master's degree: Cybersecurity (Student)}%
+		{La Sapienza}%
+		{Rome, Italy}%
+		{2019 - 2021 \faCalendar}%
+		{Scouting for thesis topics...}
+	
+	\cventry{Bachelor's degree: IT Engineering}%
+		{Politecnico di Torino}%
+		{Turin, Italy}%
+		{2016 - 2019 \faCalendar}%
+		{No thesis for this bachelor.}
+
+	\mysection{EXPERIENCES}
+
+    \cventry{Cyber Security Analyst}%
+        {BIP - Cybersecurity team}%
+        {Rome, Italy}%
+        {12/2020 - current \faCalendar}%
+        {\mylink{https://www.bipconsulting.com/who-we-are}}
+
+	\cventry{Student internship}%
+		{Spike Reply}%
+		{Rome, Italy}%
+		{03/2019 - 04/2019 \faCalendar}%
+		{Learning web application security. Internship report: 
+         \mylink{https://git.io/JvCWB}.}
+
+	\cventry{Onlus' board member}%
+		{T.G.S. Ongos 2000}%
+		{Rome, Italy}%
+		{2015 - 2017 \faCalendar}%
+		{I used to arrange social events for kids on behalf of the 
+		Salesian religious institution.}
+	
+	\cventry{STEM Research Experience}%
+		{University of Colorado, Boulder}%
+		{Denver - CO, USA}%
+		{06/2015 - 07/2015 \faCalendar}%
+		{Summer orientation program. I was mentored by Charles Hoeffer,
+         which was the behavioral genetics department's chief at the
+         University.}
+	
+	\mysection{SKILLS \& \\ STUFF I DO}
+
+	\cventry{Hackthebox}%
+		{Because it's funny (and useful)}%
+		{Planet Earth}%
+		{PenTest \faExpeditedssl}%
+		{[ \mylink{https://app.hackthebox.eu/profile/118366} ]: Italy top 30.}
+		
+	\cventry{GitHub}%
+		{Because it's useful (and funny)}%
+		{Planet Earth}%
+		{30+ repositories \faGithub}%
+		{[ \mylink{https://github.com/5amu} ]: tools and open source here :)}
+		
+	\cventry{Languages I know}%
+		{Apparently, people do care}%
+		{Planet Earth}%
+		{Programming and \\ scripting \faTerminal}%
+		{C, C\#, Java, Go, Python, Assembly, Javascript, Rust, PHP, Bash}
+		
+	\cventry{Searchpoc}%
+		{\url{https://github.com/5amu/searchpoc}}%
+		{Planet Earth}%
+		{Tools \faGears}%
+		{Find PoCs for CVEs in the wild web.}
+	
+	\cventry{Facial Recognition Project}%
+		{\url{https://github.com/5amu/biosys-project}}%
+		{Planet Earth}%
+		{\ }%
+		{This student group project is assigned for the Biometric
+		Systems course of the MSc in Cybersecurity @ Sapienza
+		Università di Roma.}
+		
+	\cventry{Bartender Course}%
+		{Flair Project}%
+		{Rome, Italy}%
+		{Social \faGlass}%
+		{It was during the first 2 months of the last year of high 
+        school. Oddly enough, that year I was invited to more
+        parties...}
+
+        \cventry{Sports}%
+		{Because you can't just workout in front of a pc}%
+		{Rome, Italy}%
+		{\ }%
+		{Without mentioning simple weight lifting, I've practiced 
+        \textbf{fencing} for 3 years and \textbf{boxing} since 5 years 
+        ago.}
+        
+        \cventry{Scoutism}%
+		{FSE}%
+		{Rome, Italy}%
+		{\ }%
+		{I've been a scout for most of my childhood and teenage years. 
+        I made myself climb the hierarchy to become the leader of my 
+        team when I was 15. Then I stopped to focus on my studies. }
+			
+	\cventry{IELTS}%
+		{British Council}%
+		{Turin, Italy}%
+		{English \faLanguage}%
+		{Grade: 7.5 (C1)}
+	
+\end{document}

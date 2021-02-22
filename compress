@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+command -v gs > /dev/null || { printf "You need GhostScript (gs) to run this\\n"; exit 1; }
+
+gs -q -dNOPAUSE -dBATCH -dSAFER			\
+	-sDEVICE=pdfwrite			\
+	-dCompatibilityLevel=1.5		\
+	-dPDFSETTINGS=/ebook			\
+	-dEmbedAllFonts=true			\
+	-dSubsetFonts=true			\
+	-sOutputFile="./cv-casalino.pdf"	\
+	"./vcasalino.pdf"
